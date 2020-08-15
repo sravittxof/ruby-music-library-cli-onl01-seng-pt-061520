@@ -34,11 +34,11 @@ extend Concerns::Findable
   end
   
   def add_song(song)
-   # if songs.include?(song) == false
-   #   song.genre = self
-    #  @songs << song
+    #if song.genre == nil
+     # song.genre = self
+      songs << song
     #end
-  #end  
+  end
   
   
 end
